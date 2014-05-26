@@ -1,0 +1,11 @@
+{
+  "name": "Find the band",
+  "description": "Right click on a bands name to run a google search. Works well with http://www.foopee.com/punk/the-list/",
+  "version": "0.6",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["search.js"]
+  },
+  "manifest_version": 2,
+  "icons": { "128": "128.png" }
+}
